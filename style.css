@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 70%;
+    max-width: 600px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.main-slideshow {
+    overflow: hidden;
+    max-width: 600px;
+    position: relative;
+    margin-top: 8rem;
+}
+
+.main-slideshow .slideshow,
+.main-slideshow .slideshow .first-slideshow {
+    display: none;
+}
+
+.main-slideshow .first-slideshow {
+    display: block;
+}
+
+.main-slideshow .button-actions {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20.4rem;
+    width: 70%;
+    
+}
+
+.button-actions button {
+    width: 30px;
+    height: 40px; 
+    border-radius: 4px;
+    background-color: #652B17;
+    color: #fff;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
